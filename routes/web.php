@@ -16,29 +16,6 @@ Route::get('/single-action', SingleActionController::class);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // 6_Routes de secours (erreur 404)
 Route::fallback(function () {
     return "Ooops cette page n'existe pas !";

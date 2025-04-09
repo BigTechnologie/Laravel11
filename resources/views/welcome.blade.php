@@ -21,13 +21,15 @@
 
   @endsection
 
+  
+  
   @push('scripts')
     <script>
         $(document).ready(function() {
             alert("Ce script est pour la page d’accueil");
         });
     </script>
-@endpush
+  @endpush
 
  @push('styles')
     <style>
@@ -36,4 +38,8 @@
         }
     </style>
 @endpush
+
+
+
+  
 

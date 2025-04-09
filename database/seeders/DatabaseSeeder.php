@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-       
-        
+       MyBlog::factory(10)->create();
+       //$this->call(UserSeeder::class);
     }
 }

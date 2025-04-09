@@ -13,5 +13,7 @@ class SingleActionController extends Controller
     {
         //
         return "Ceci est un Single Action Controller";
+
+        
     }
 }
